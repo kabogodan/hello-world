@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kad technologies limited</title>
+<style>
+.body {
+
+}
+.main-header {
+background-color:#F0FFF0;
+
+}
+.header-forms {
+background-color:#DCDCDC;
+padding:15px 35px 15px 0px;
+text-align:right;
+margin:10px 10px 10px 10px;
+
+}
+.header-name {
+margin-left:10px;
+background-color:#F0FFF0;
+}
+.header-search {
+float:right;
+margin-right:10px;
+}
+.header-nav {
+text-transform:uppercase;
+margin:10px 10px 10px 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 95px;
+    text-decoration: none;
+}
+li.dropdown{
+display:inline-block;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:	#B0C4DE;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width:283px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #FFEBCD}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#header-slide{
+width:100%;
+height:450px;
+boder:1px solid black;
+margin:10px 10px 10px 10px;
+position:relative;
+}
+#header-slide>img{
+width:98.5%;
+height:100%;
+position:absolute;
+}
+#header-slide>.btn{
+position:absolute;
+width:50px;
+height:50px;
+border:none;
+border-radius:25px;
+top:200px;
+background:black;
+color:white;
+font-size:20px;
+}
+#header-slide>#btn1:hover{
+box-shadow:10px 0px 20px 10px black;
+}
+#header-slide>#btn2{
+position:relative;
+float:right;
+}
+
+</style>
+</head>
+<body>
+
+<header class="main-header">
+<div class="header-forms">
+<button onclick="#" class="signup-form">Sign up</button>
+<button onclick="#" class="login-form"> Login</button>
+</div>
+<div class="header-search">
+<form action="">
+<input name="q" type="text" size="23">
+<button onclick="#" class="#"> search </button>
+</form>
+</div>
+<div class="header-name">
+<img src="index3.png" alt="kad technologies">
+</div>
+<div class="header-nav">
+<div class="main-nav">
+<nav>
+<ul>
+<li><a href="#" class="rop">home</a></li>
+<li><a href="#">about</a></li>
+<li class="dropdown"><a href="#" class="dropbtn">products</a>
+<div class="dropdown-content">
+<a href="#">Educational</a>
+<a href="#">Entertainment</a>
+<a href="#">Security</a>
+<a href="#">Medical</a>
+<a href="#">Business</a>
+</div>
+</li>
+<li><a href="#" >news</a></li>
+<li><a href="#" >contact</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div id="header-slide">
+<img class="slides" src="images/1.jpg"/>
+<img class="slides" src="images/2.jpg"/>
+<img class="slides" src="images/3.jpg"/>
+<img class="slides" src="images/4.jpg"/>
+<img class="slides" src="images/5.jpg"/>
+<button class="btn" id="btn1" >&#10094;</button>
+<button class="btn" id="btn2" >&#10095;</button>
+</div>
+
+
+</header>
+
+<section>
+</section>
+
+<footer>
+</footer>
+
+</body>
+
+</html>
